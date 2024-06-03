@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundal"
+    tools:context=".ModificaUsername">
+
+
+    <EditText
+        android:id="@+id/pactuala"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="153dp"
+        android:hint="Parolă actuală"
+        android:inputType="textPassword"
+        android:textColor="@android:color/black"
+        />
+
+    <EditText
+        android:id="@+id/pnoua"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="222dp"
+        android:hint="Parolă nouă"
+        android:textColor="@android:color/black"
+        />
+
+    <Button
+        android:id="@+id/modificaP"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="313dp"
+        android:background="@drawable/button_background"
+        android:text="Modifică"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+</RelativeLayout>

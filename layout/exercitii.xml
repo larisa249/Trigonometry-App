@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundal"
+    tools:context=".Setari">
+
+
+    <Button
+        android:id="@+id/button_history"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/circle"
+        android:textColor="@android:color/white"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:onClick="showHelpDialog"/>
+
+    <EditText
+        android:id="@+id/AB"
+        android:layout_width="240dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="180dp"
+        android:hint="Lungimea laturii AB"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/BC"
+        android:layout_width="240dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="210dp"
+        android:hint="Lungimea laturii BC"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/CA"
+        android:layout_width="240dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="240dp"
+        android:hint="Lungimea laturii CA"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/A"
+        android:layout_width="240dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="120dp"
+        android:hint="Măsura unghiului A"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:inputType="number"/>
+
+
+    <EditText
+        android:id="@+id/C"
+        android:layout_width="240dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="150dp"
+        android:hint="Măsura unghiului C"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/v"
+        android:layout_width="140dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="285dp"
+        android:background="@drawable/button_background"
+        android:text="Calculează"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <com.example.trigo.Triunghi
+        android:id="@+id/triangleView"
+        android:layout_width="313dp"
+        android:layout_height="254dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="49dp" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="310dp"
+        android:layout_height="145dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="353dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#060270"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
+
+
+

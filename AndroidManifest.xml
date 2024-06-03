@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/i_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/i_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Trigo"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Conectare" />
+        <activity android:name=".CreareCont" />
+        <activity android:name=".DBHelper" />
+        <activity android:name=".Meniu" />
+        <activity android:name=".Calculator" />
+        <activity android:name=".Teorie" />
+        <activity android:name=".Adaptor" />
+        <activity android:name=".Fragmentt" />
+        <activity android:name=".SinFragment" />
+        <activity android:name=".CosFragment" />
+        <activity android:name=".TgFragment" />
+        <activity android:name=".CtgFragment" />
+        <activity android:name=".GFragment" />
+        <activity android:name=".Help"/>
+        <activity android:name=".Grafic"/>
+        <activity android:name=".Setari"/>
+        <activity android:name=".Modificare"/>
+        <activity android:name=".ModificaUsername"/>
+        <activity android:name=".ModificaParola"/>
+        <activity android:name=".Quiz"/>
+        <activity android:name=".Progres"/>
+        <activity android:name=".Exercitii"/>
+        <activity android:name=".Triunghi"/>
+
+
+    </application>
+
+</manifest>
